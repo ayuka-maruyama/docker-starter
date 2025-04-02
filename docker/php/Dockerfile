@@ -1,5 +1,5 @@
 # 最新のPHPをインストール
-FROM php:latest-fpm
+FROM php:fpm
 
 # php.iniの設定ファイルをコピー
 COPY docker/php/php.ini /usr/local/etc/php/
